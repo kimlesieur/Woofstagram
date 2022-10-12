@@ -16,6 +16,7 @@ const App = () => {
     if(text !== password) alert("Passwords do not math, please try again !");
   }
 
+
   return (
     <ScrollView style={{ flex: 1, backgroundColor: '#ecf0f1' }}>
       <Input
@@ -69,26 +70,3 @@ const App = () => {
 };
 
 export default App;
-
-
-
-// import { StatusBar } from 'expo-status-bar';
-// import { StyleSheet, Text, View } from 'react-native';
-
-// export default function App() {
-//   return (
-//     <View style={styles.container}>
-//       <Text>Open up App.tsx to start working on your app!</Text>
-//       <StatusBar style="auto" />
-//     </View>
-//   );
-// }
-
-// const styles = StyleSheet.create({
-//   container: {
-//     flex: 1,
-//     backgroundColor: '#fff',
-//     alignItems: 'center',
-//     justifyContent: 'center',
-//   },
-// });
